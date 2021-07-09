@@ -47,3 +47,28 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #2E2920;
 }
+#cookie-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#cookie-image {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/banner.jpg') no-repeat center center;
+    /*animates zoom effect on loading page */
+    animation: cookie-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+/*creates the level of zoom for cookie image */
+@keyframes cookie-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
