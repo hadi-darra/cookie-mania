@@ -164,3 +164,14 @@ hr {
      border-radius: 50%;
 
 }
+/* Branches information*/
+
+#branches {
+    background: url('../css/images/branches.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
