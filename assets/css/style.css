@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
 body {
     font-family: Arial;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+    color: #5C5240;
+}
+/*headings and logos*/
+h1, h2 {
+    font-family: sans-serif, 'Times New Roman';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2E2920;
+}
+#logo {
+    float: left;
+    font-size: 280%;
 }
