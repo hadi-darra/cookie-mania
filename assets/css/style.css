@@ -306,6 +306,7 @@ footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
+    max-width: 500px;
 
 }
 .story h2 {
@@ -314,5 +315,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: solid underline;
 }
-
+.story-img {
+    background: url('../css/images/story.jpg') no-repeat center center;
+    height: 100%;
+    width: 200px;
+    padding: 300px;
+    text-align: center;
+}
      
