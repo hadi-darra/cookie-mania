@@ -6,6 +6,14 @@
     border: none;
 
 }
+header
+{
+    height: 75px;
+}
+nav, nav ul
+{
+    float: right;
+}
 body {
     font-family: Arial;
     font-weight: 300;
@@ -24,6 +32,11 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#logo:visited{
+    color: #D2BE9A;
 }
 #menu {
     font-size: 110%;
@@ -194,7 +207,7 @@ hr {
 /* Footer*/
 
 footer {
-    height: 150px;
+    margin-top: 35px;
 }
 .social-networks {
     text-align: center;
@@ -202,10 +215,10 @@ footer {
 .social-networks > li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
     color: #3a3a3a;
 }
 /* Gellery */
@@ -307,19 +320,18 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     max-width: 500px;
-
+    margin: 0 auto;
 }
 .story h2 {
     text-align: center;
-    padding: 100px;
+    margin: 70px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: solid underline;
 }
 .story-img {
     background: url('../css/images/story.jpg') no-repeat center center;
-    height: 100%;
-    width: 200px;
-    padding: 300px;
-    text-align: center;
+    height: 419px;
+    width: 100%;
+    margin-bottom: 35px;
 }
      
