@@ -34,9 +34,10 @@ h1, h2 {
     margin-left: 30px;
     text-decoration: none;
     font-weight: bold;
+    
 }
 #logo:visited{
-    color: #D2BE9A;
+    color: #d2be9a;
 }
 #menu {
     font-size: 110%;
@@ -56,10 +57,10 @@ h1, h2 {
     color: inherit;
 }
 #menu a:hover {
-    border-bottom: 1px solid #2E2920;
+    border-bottom: 1px solid #d2be9a;
 }
 .active {
-    border-bottom: 1px solid #2E2920;
+    border-bottom: 1px solid #d2be9a;
 }
 #cookie-outer {
     height: 600px;
@@ -150,11 +151,11 @@ hr {
     margin-bottom: 50px;
 }
 .right-about-heading h2 {
-    text-align: right;
+    text-align: left;
 
 }
 .right-about-heading p{
-    text-align: right;
+    text-align: left;
 }
 #welcome {
     text-align: center;
@@ -227,6 +228,7 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    
 }
 #photos > img {
     width: 100%;
