@@ -345,6 +345,7 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     text-decoration: solid;
+    font-size: xx-large;
 } 
 
 #gallerywrapper #gallery {
@@ -379,7 +380,8 @@ footer {
 #gallerywrapper #gallery div p {
     padding:5px 0; 
     margin:0; 
-    font-size:12px; 
+    font-size: large; 
+    text-decoration: solid;
     line-height:18px;
 } 
 
