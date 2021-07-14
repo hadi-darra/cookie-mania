@@ -336,7 +336,7 @@ footer {
 }
      
 #gallerywrapper {
-    width:40rem;
+  /*  width:40rem; */
     height:28.1rem;
     margin:0 auto;
     position:relative;
@@ -356,9 +356,10 @@ footer {
 } 
 
 #gallerywrapper #gallery div {
-    width:40rem; height:56.25rem; 
+    /*width:40rem;*/
+     height:56.25rem; 
     padding-top:0.6rem; 
-    position:relative;
+    /*position:relative;*/
 } 
 
 #gallerywrapper #gallery div img {
@@ -383,14 +384,14 @@ footer {
 } 
 
 #gallery .previous{ 
-    display:inline;
+   /* display:inline;*/
     float:left;
     margin-left:5rem;
     text-decoration:none;
 } 
 
 #gallery .next{ 
-    display:inline;
+  /*  display:inline;*/
     float:right;
     margin-right:5rem;
     text-decoration:none;
@@ -413,3 +414,7 @@ a:visited {
   .btn:hover {
       opacity: 1
     }
+.gallery-correct {
+    width: 100%;
+    height: auto;
+}
