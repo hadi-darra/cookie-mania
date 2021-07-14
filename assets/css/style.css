@@ -73,7 +73,7 @@ body {
 #cookie-image {
     height: 37.5rem;
     width: 100%;
-    background: url('../css/images/banner.jpg') no-repeat center center;
+    background: url('../images/banner.jpg') no-repeat center center;
     /*animates zoom effect on loading page */
     animation: cookie-zoom;
     animation-duration: 5s;
@@ -171,7 +171,7 @@ hr {
     margin: 0 auto;
 }
 #cirlce-cover-bg {
-    background: url('../css/images/cookie-center-image.jpg') no-repeat center center;
+    background: url('../images/cookie-center-image.jpg') no-repeat center center;
      height: 100%;
      border-radius: 50%;
 
@@ -179,7 +179,7 @@ hr {
 /* Branches information*/
 
 #branches {
-    background: url('../css/images/branches.jpg');
+    background: url('../images/branches.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -235,7 +235,7 @@ footer {
 
 /* For larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 18.75rem) {
+@media screen and (max-width: 300px) {
     #cookie-image {
         width :65%;
         height: 75rem;
@@ -267,7 +267,7 @@ footer {
     }
 }
 /* For medium screen size from 950px wide and down */
-@media screen and (max-width: 59rem) {
+@media screen and (max-width: 944px) {
 
     #menu {
         clear: left;
@@ -304,7 +304,7 @@ footer {
     }
 }
 /* for small screen sizes 800px and down */
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
@@ -329,7 +329,7 @@ footer {
     text-decoration: solid underline;
 }
 .story-img {
-    background: url('../css/images/story.jpg') no-repeat center center;
+    background: url('../images/story.jpg') no-repeat center center;
     height: 26.1rem;
     width: 100%;
     margin-bottom: 2.1rem;
@@ -347,7 +347,6 @@ footer {
 } 
 
 #gallerywrapper #gallery {
-    position:absolute;
     left:0;
     top:0;
     height:28.1rem;
