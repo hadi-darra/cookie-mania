@@ -403,3 +403,7 @@ footer {
     margin-right: auto;
     
 }
+a:visited {
+    text-decoration: none; 
+    color: #EBD8B3; 
+}
