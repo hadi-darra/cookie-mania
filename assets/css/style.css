@@ -21,8 +21,7 @@ body {
     color: #3b3a37;
 }
 /*headings and logos*/
-h1, h2 {
-    font-family: sans-serif, 'Times New Roman';
+.heading12 h1, h2 {
     text-transform: uppercase;
     letter-spacing: 0.25rem;
     color: #D2BE9A;
@@ -412,4 +411,6 @@ a:visited {
     transition: 0.3s;
   }
   
-  .btn:hover {opacity: 1}
+  .btn:hover {
+      opacity: 1
+    }
