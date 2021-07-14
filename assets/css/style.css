@@ -271,7 +271,7 @@ footer {
 
     #menu {
         clear: left;
-        float: left;
+       /* float: left;*/
         margin-left: 1.9rem;
         margin-bottom: 1.25rem;
         line-height: 1.6rem;
@@ -282,7 +282,7 @@ footer {
     }
     #cookie-image {
         width: 90%;
-        height: 75rem;
+        /*height: 75rem;*/
         margin: 0 auto;
     }
     .left-about-heading .right-about-heading{
@@ -305,9 +305,38 @@ footer {
 }
 /* for small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+    #branches div {
+        width: 50%;
+    }
     #photos {
         column-count: 2;
     }
+    #cookie-image {
+        height: 37.5rem;
+    }
+    #menu {
+            font-size: small;
+            letter-spacing: 0.25rem;
+        }
+        #left-about {
+            padding-top: 1.9rem;
+            float: left;
+        }
+        #circle-container {
+            width: 5rem;
+            height: 5rem;
+            padding: 1.9rem;
+            border-style: solid;
+            border-color: #ccc;
+            border-width: 0.06rem;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        #right-about {
+            padding-top: 1.9rem;
+            float: right;
+            text-align: center;
+        }
 }
 .story {
     color:#736750;
