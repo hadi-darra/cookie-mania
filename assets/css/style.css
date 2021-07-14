@@ -405,5 +405,11 @@ footer {
 }
 a:visited {
     text-decoration: none; 
-    color: #EBD8B3; 
+    color: #9c762d; 
 }
+.btn {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 1}
