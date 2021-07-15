@@ -22,6 +22,10 @@ The project has 3 pages.  Home, Gallery and Our Cookies page.
 1-	An image in the middle shows a cookie.<br />
 2-	Descriptions for the 4 types of Cookies which we serve.<br />
 
+-	**Tested on W3C CSS/HTML Validator:**<br />
+![CSS Test](assets/images/css-test.jpg)
+![HTML Test](assets/images/html-test.jpg)
+
 ## Our accounts on social media:
   - [Twitter](https://twitter.com/)
  - [Instagram](https://www.instagram.com/)
