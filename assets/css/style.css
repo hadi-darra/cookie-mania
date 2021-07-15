@@ -236,6 +236,10 @@ footer {
 /* For larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 300px) {
+    #menu , #logo {
+        line-height: 4.7rem;
+    
+    }
     #cookie-image {
         width :65%;
         height: 75rem;
@@ -295,6 +299,7 @@ footer {
 
     }
     .left-about-heading p, .right-about-heading p {
+        width: 100%;
         text-align: center;
         padding: 0 1.25rem;
 
@@ -302,9 +307,22 @@ footer {
     #photos {
         column-count: 4;
     }
+    #left-about , #right-about {
+        width: 100%;
+       /* float: left;*/
+        padding: 0;
+    }
 }
 /* for small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+    .left-about-heading {
+       /* float: initial;*/
+        width: 100%;
+    }
+    .right-about-heading {
+       /* float: initial;*/
+        width: 100%;
+    }
     #branches div {
         width: 50%;
     }
@@ -336,6 +354,12 @@ footer {
             padding-top: 1.9rem;
             float: right;
             text-align: center;
+        }
+        .video-cookies {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
         }
 }
 .story {
