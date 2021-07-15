@@ -365,7 +365,7 @@ footer {
 }
      
 #gallerywrapper {
-  /*  width:40rem; */
+    width:40rem; 
     height:28.1rem;
     margin:0 auto;
     position:relative;
@@ -385,10 +385,10 @@ footer {
 } 
 
 #gallerywrapper #gallery div {
-    /*width:40rem;*/
-     height:56.25rem; 
+    width:40rem;
+    height:56.25rem; 
     padding-top:0.6rem; 
-    /*position:relative;*/
+    position:relative;
 } 
 
 #gallerywrapper #gallery div img {
